@@ -4,7 +4,8 @@
   font-family: 'Poppins', sans-serif;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -83,6 +84,23 @@ html, body {
   font-size: 1.2rem !important;
   color: #4a4a4a !important;
   line-height: 1.6 !important;
+}
+
+.hero-img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Reduz no desktop */
+@media (min-width: 768px) {
+  .hero-img {
+    height: 200px;
+    width: 1325px;
+    margin-top: 10px;
+    margin: 10px auto;
+    border-radius: 30px;
+  }
 }
 
 
